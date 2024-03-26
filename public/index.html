@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multiplayer Drawing App</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div>
+    <label for="nameInput">Name:</label>
+    <input type="text" id="nameInput">
+    <label for="colorInput">Color:</label>
+    <input type="color" id="colorInput">
+    <button onclick="login()">Join</button>
+  </div>
+  <canvas id="canvas" width="800" height="600"></canvas>
+</body>
+</html>
